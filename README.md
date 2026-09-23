@@ -27,8 +27,7 @@ print("Temperature: {}°C or {}°F".format(celsius, farenheit))
 
 
 
-
-# Taking input from the user
+#....
 Name = input("Enter your name : ")
 Age = input("Enter your age : ")
 print("Name :{1},Age :{0}".format(Age,Name))
@@ -53,7 +52,8 @@ print("Product_name: {1} at ${0}".format(Price, Product_name))
 
 
 
-# Taking input from the user
+
+ #Taking input from the user
 greeting = input("Enter a greeting (e.g., Hello): ")
 name = input("Enter a name: ")
 print("{1}, {0}!".format(greeting, name))
